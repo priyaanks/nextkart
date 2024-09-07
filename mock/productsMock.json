@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Smartphone X",
+      "price": "799.99",
+      "category": "Electronics",
+      "excerpt": "Latest model with advanced features",
+      "description": "High-performance smartphone with a stunning display and powerful camera system.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "Leather Jacket",
+      "price": "199.99",
+      "category": "Fashion",
+      "excerpt": "Classic style for all seasons",
+      "description": "Genuine leather jacket with a timeless design, perfect for any outfit.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Fitness Tracker",
+      "price": "89.99",
+      "category": "Electronics",
+      "excerpt": "Monitor your health and activity",
+      "description": "Advanced fitness tracker with heart rate monitoring and sleep analysis.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "4",
+      "title": "Gourmet Coffee Beans",
+      "price": "24.99",
+      "category": "Food & Beverage",
+      "excerpt": "Premium roasted coffee beans",
+      "description": "Ethically sourced, freshly roasted coffee beans for the perfect cup every time.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "5",
+      "title": "Yoga Mat",
+      "price": "39.99",
+      "category": "Sports & Fitness",
+      "excerpt": "Non-slip, eco-friendly yoga mat",
+      "description": "High-quality yoga mat made from sustainable materials, providing excellent grip and comfort.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "Wireless Earbuds",
+      "price": "129.99",
+      "category": "Electronics",
+      "excerpt": "True wireless audio experience",
+      "description": "Premium wireless earbuds with noise cancellation and long battery life.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "7",
+      "title": "Organic Face Cream",
+      "price": "34.99",
+      "category": "Beauty",
+      "excerpt": "Nourishing skincare for all skin types",
+      "description": "Natural and organic face cream that hydrates and rejuvenates your skin.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "8",
+      "title": "Smart Home Hub",
+      "price": "149.99",
+      "category": "Electronics",
+      "excerpt": "Control your home with voice commands",
+      "description": "Central hub for managing all your smart home devices with voice control.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "Stainless Steel Water Bottle",
+      "price": "29.99",
+      "category": "Lifestyle",
+      "excerpt": "Eco-friendly hydration solution",
+      "description": "Durable, insulated water bottle that keeps drinks cold for hours.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "10",
+      "title": "Wireless Gaming Mouse",
+      "price": "79.99",
+      "category": "Electronics",
+      "excerpt": "Precision control for gamers",
+      "description": "High-performance wireless gaming mouse with customizable buttons and RGB lighting.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "11",
+      "title": "Portable Blender",
+      "price": "49.99",
+      "category": "Kitchen Appliances",
+      "excerpt": "Make smoothies on the go",
+      "description": "Compact, rechargeable blender for making fresh smoothies anywhere.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "12",
+      "title": "Leather Wallet",
+      "price": "59.99",
+      "category": "Fashion",
+      "excerpt": "Slim and stylish card holder",
+      "description": "Genuine leather wallet with RFID protection and multiple card slots.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "13",
+      "title": "Bluetooth Speaker",
+      "price": "89.99",
+      "category": "Electronics",
+      "excerpt": "Powerful sound in a compact design",
+      "description": "Waterproof Bluetooth speaker with 360-degree sound and long battery life.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "14",
+      "title": "Organic Green Tea",
+      "price": "19.99",
+      "category": "Food & Beverage",
+      "excerpt": "Premium Japanese green tea",
+      "description": "High-quality organic green tea leaves for a refreshing and healthy drink.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "15",
+      "title": "Wireless Charging Pad",
+      "price": "39.99",
+      "category": "Electronics",
+      "excerpt": "Convenient wireless charging",
+      "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+      "image": "/images/placeholder.jpeg"
+    },
+    {
+      "id": "16",
+      "title": "Adjustable Dumbbell Set",
+      "price": "249.99",
+      "category": "Sports & Fitness",
+      "excerpt": "Space-saving home gym solution",
+      "description": "Versatile dumbbell set with adjustable weights for a complete workout.",
+      "image": "/images/placeholder.jpeg"
+    }
+  ]
+}

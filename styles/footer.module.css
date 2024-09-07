@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 12vh;
+}
+
+.main {
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  padding: 24px 16px;
+  margin-top: auto;
+  background-color: #e0e0e0;
+}
+
+.footerContent{
+  color: #fff;
+}
+
+/* For dark mode */
+@media (prefers-color-scheme: dark) {
+  .footer {
+    background-color: #1976d2;
+    color: #fff;
+  }
+}

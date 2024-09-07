@@ -1,0 +1,59 @@
+.search {
+  position: relative;
+  border-radius: 4px; 
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-right: 16px; 
+  margin-left: 0;
+  width: 100%;
+}
+
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+@media (min-width: 600px) {
+  .search {
+    margin-left: 24px; 
+    width: auto;
+  }
+}
+
+.searchIconWrapper {
+  padding: 0 16px; 
+  height: 100%;
+  position: absolute;
+  right: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.styledInputBase {
+  color: inherit;
+  width: 83%;
+  padding: 0 15px;
+}
+
+.styledInputBase .MuiInputBase-input {
+  padding: 8px 8px 8px 0; 
+  padding-left: calc(1em + 32px); 
+  transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; 
+  width: 100%;
+}
+
+.userMenu {
+  position: absolute;
+  top: 50px;
+  min-width: 200px;
+}
+
+.userMenu .mui-Paper{
+  right:60px
+}
+
+@media (min-width: 960px) {
+  .styledInputBase .MuiInputBase-input {
+    width: 20ch;
+  }
+}

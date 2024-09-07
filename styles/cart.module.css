@@ -1,0 +1,78 @@
+.paperCart{
+  margin: 50px 0;
+  padding: 3rem 3rem;
+}
+
+.tableHead { 
+  margin: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  border-width: 0;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-bottom-width: thin;
+  margin-left: 72px;
+}
+
+.tableHeadItem {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+.addressType {
+  font-size: 1.25rem;
+  line-height: 1.35rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.columnHeader {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.product {
+  padding-left: 5rem ;
+}
+
+.productName {
+  font-size: .875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.categoryName {
+  font-size: .75rem;
+  line-height: 1rem;
+  color: rgba(239, 68, 68, 1);
+  padding: 0 0 10px 0;
+}
+
+.quantity {
+  width: 70px;
+}
+.removeLink{
+  color: rgba(107, 114, 128, 1);
+  text-transform: inherit;
+  padding: 0;
+}
+.removeLink:hover {
+  color: rgba(239, 68, 68, 1);
+}
+
+.noItem {
+  padding-left: 3rem;
+}
+
+.continueShopping {
+  color: rgba(99, 102, 241, 1);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cartTotal {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
