@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, use } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -21,6 +21,7 @@ import { useSelector } from "react-redux";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import SearchBar from "@/components/search/SearchBar";
+import { useAuth } from "@/lib/context/AuthContext";
 
 const Navbar = () => {
   const [userMenuExpand, setUserMenuExpand] = React.useState(false);
@@ -30,6 +31,7 @@ const Navbar = () => {
   const isMenuOpen = Boolean(anchorEl);
 
   const router = useRouter();
+  const { user, logout } = useAuth();
 
   const cartState = useSelector((state) => state.cart);
   const cartCounter = cart && cart.items ? cart.items.length : 0;
@@ -38,12 +40,25 @@ const Navbar = () => {
     setCart(cartState);
   }, [cartState]);
 
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      setIsLoggedIn(true);
+    } else {
+      setIsLoggedIn(false);
+    }
+  }, []);
+
   const handleProfileMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleMenuClose = (redirect) => {
+  const handleMenuClose = (redirect, mode) => {
     setAnchorEl(null);
+
+    if ("logout" === mode) {
+      logout();
+    }
     if (redirect) {
       router.push(redirect);
     }
@@ -68,7 +83,7 @@ const Navbar = () => {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      {!isLoggedIn
+      {isLoggedIn
         ? [
             <MenuItem key='login' onClick={() => handleMenuClose("/login")}>
               <LoginIcon />
@@ -80,7 +95,10 @@ const Navbar = () => {
               <ShoppingBasketIcon />
               Orders
             </MenuItem>,
-            <MenuItem key='logout' onClick={() => handleMenuClose("/logout")}>
+            <MenuItem
+              key='logout'
+              onClick={() => handleMenuClose("/login", "logout")}
+            >
               <LogoutIcon />
               Logout
             </MenuItem>,

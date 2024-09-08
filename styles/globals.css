@@ -87,12 +87,10 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color :#fff;
+  background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: repeating-linear-gradient(315deg, #0808082E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #010101FF 8%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #010101FF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #020202FF 0%, #020202FF 1%, #020202FF 1%, #00030CFF 98%);
 }
 
 a {

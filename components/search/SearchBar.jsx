@@ -34,14 +34,12 @@ const SearchBar = () => {
             placeholder='Search products'
           />
         )}
-        // onChange={handleSearch}
         onInputChange={(event, newInputValue) => {
           dispatch(filterProducts(newInputValue));
         }}
         renderOption={(props, option) => renderSearchResults(option, props)}
         freeSolo
         fullWidth
-        // open={true}
       />
     </>
   );

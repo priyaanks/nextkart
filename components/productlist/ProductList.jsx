@@ -29,10 +29,15 @@ const ProductList = () => {
     <>
       {!isLoading ? (
         <section id='products'>
-          <Typography gutterBottom variant='h2' component='div'>
+          <Typography
+            sx={{ color: "#fff" }}
+            gutterBottom
+            variant='h2'
+            component='div'
+          >
             Products
           </Typography>
-          <Typography variant='body2' sx={{ color: "text.white" }}>
+          <Typography variant='body2' sx={{ color: "#fff" }}>
             We are happy to offer you the variety of products.
           </Typography>
 

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 5500"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -15,6 +16,10 @@
     "@mui/material": "^6.0.2",
     "@reduxjs/toolkit": "^2.2.7",
     "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "json-server": "^1.0.0-beta.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
     "next": "14.2.7",
     "react": "^18",
     "react-dom": "^18",

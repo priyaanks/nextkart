@@ -11,13 +11,14 @@ function Copyright() {
       className={styles.footerContent}
       align='center'
       variant='body2'
-      color='textPrimary'
+      sx={{ color: "#fff" }}
     >
       {"Copyright © "}
       <Link color='inherit' href='/'>
         NextKart
       </Link>
-      {` ${new Date().getFullYear()}`}
+      {` ${new Date().getFullYear()}. `}
+      All rights reserved.
     </Typography>
   );
 }

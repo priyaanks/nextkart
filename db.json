@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "801a",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "$2a$10$q4VphMbaryfMjs1lMcesP.uTL1/u/nctBtKyDS8GHnuG8N2./ENZm"
+    },
+    {
+      "id": "7ff2",
+      "name": "Priyank",
+      "email": "priyank@example.com",
+      "password": "$2a$10$4zBmp9ekwFHrAvfDcBi3R.UzRTzxa5uANud3nw9SupHltd0BnNcJO"
+    },
+    {
+      "id": "ac27",
+      "name": "Prachi",
+      "email": "prachi@example.com",
+      "password": "$2a$10$a3m6WYfO10wDbYw5QTroUOp5gL2Mk0kua/Anp.2NZCTerb4SfZdga"
+    },
+    {
+      "id": "b42a",
+      "name": "Pranvee Shrivastava",
+      "email": "Pranvee@test.com",
+      "password": "$2a$10$bykdJ4c8b3KqtRwmj8mwsOsT3jeGOXBFWnYno61XAunOwPGfN8hnq"
+    },
+    {
+      "id": "09f3",
+      "email": "Pranvee@test.com",
+      "password": "Pranvee123"
+    }
+  ]
+}

@@ -14,7 +14,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // We'll fetch the product details in the component
   return { props: { id: params.id } };
 }
 
